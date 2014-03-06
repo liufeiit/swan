@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Oracle Corporation)
+Implementation-Title: UWeb
+Implementation-Version: 1.0.0.RELEASE
