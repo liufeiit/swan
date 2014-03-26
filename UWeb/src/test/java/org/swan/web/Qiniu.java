@@ -48,7 +48,7 @@ public class Qiniu {
 		String prefix1 = "photo";
 		String prefix2 = "audio";
 		String str = "/" + prefix1 + "/";
-		long userId = 1078338;
+		long userId = 1332756;
 		
 		String a = "backend/questionrecord";
 		
