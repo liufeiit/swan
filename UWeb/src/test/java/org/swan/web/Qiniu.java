@@ -9,6 +9,7 @@ import java.net.URL;
 
 import com.qiniu.api.auth.digest.Mac;
 import com.qiniu.api.config.Config;
+import com.qiniu.api.rs.RSClient;
 import com.qiniu.api.rsf.ListItem;
 import com.qiniu.api.rsf.ListPrefixRet;
 import com.qiniu.api.rsf.RSFClient;
@@ -32,6 +33,7 @@ public class Qiniu {
 		// String downloadUrl = getPolicy.makeRequest(baseUrl, mac);
 
 		RSFClient client = new RSFClient(mac);
+		RSClient c = new RSClient(mac);
 		String marker = "";
 
 		String bucketName1 = "ruoogle1";
@@ -43,17 +45,28 @@ public class Qiniu {
 
 		int count = 0;
 
+		String prefix1 = "photo";
+		String prefix2 = "audio";
+		String str = "/" + prefix1 + "/";
+		long userId = 1156553;
+		
+		String a = "backend/questionrecord";
+		
 		ListPrefixRet ret = null;
 		while (true) {
-			ret = client.listPrifix(bucketName3, "photo", marker, 10);
+			ret = client.listPrifix(bucketName3, prefix1 + "/" + userId, marker, 10);
 			marker = ret.marker;
-
 			if (ret.results != null && !ret.results.isEmpty()) {
 				for (ListItem listItem : ret.results) {
 					String imageURL = "http://staticnova.ruoogle.com/" + listItem.key;
-					String name = imageURL.substring(imageURL.indexOf("/photo/") + "/photo/".length());
-					String file = "/home/lf/photo/" + name;
+					String name = imageURL.substring(imageURL.indexOf(str) + str.length());
+					String file = "D://charm/photo" + prefix1 + "/" + userId + "/" + name;
 					save(imageURL, file);
+			        try {
+//						c.delete(bucketName3, listItem.key);
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
 				}
 			}
 			count++;

@@ -1,0 +1,115 @@
+<div style="display: block;" id="content">
+	<div id="banner">
+		<div class="c-wrapper clr">
+			<div id="logo" class="sprit left"></div>
+			<ul id="menu" class="right">
+				<li class="menu-list" style="border-bottom:2px solid #81c93d;"><a href="javascript:;">首页</a></li>
+				<li class="menu-list"><a href="" target="_blank">网页版</a></li>
+				<li class="menu-list"><a href="" target="_blank">官方微博</a></li>
+				<li class="menu-list"><a href="" target="_blank">帮助</a></li>
+			</ul>
+		</div>
+		<div id="banner-bac"></div>
+	</div>
+	<div id="focus">
+		<div class="c-wrapper clr">
+			<div id="slogan" class="sprit left"></div>
+			<div id="brief-intro" class="left">
+				<div class="sprit clr title">
+					<span class="title-label green left">产品介绍</span>
+					<span class="title-content left">史上最好玩、最私密的聊天应用！</span>
+				</div>
+				<ul class="intro-wrapper clr">
+					<li class="intro-items left">
+						<i class="sprit bubble">1</i>
+						<p class="intro">表情<span class="green">永久免费</span></p>
+						<p class="remark">呆 萌 囧 二 雷</p>
+					</li>
+					<li class="intro-items left">
+						<i class="sprit bubble">2</i>
+						<p class="intro">阅后即焚<span class="green">最安全</span></p>
+						<p class="remark">超级私密保障</p>
+					</li>
+					<li class="intro-items left">
+						<i class="sprit bubble">3</i>
+						<p class="intro"><span class="green">500人</span>聊天大群</p>
+						<p class="remark">突破界限，聊翻全场</p>
+					</li>
+					<li class="intro-items left">
+						<i class="sprit bubble">4</i>
+						<p class="intro">涂鸦<span class="green">添趣味</span></p>
+						<p class="remark">聊天更好玩</p>
+					</li>
+				</ul>
+			</div>
+			<div id="app-download" class="left">
+				<div class="app-download-rem"></div>
+				<a id="app-download-ios" href="" target="_blank">下载iOS客户端</a>
+				<a id="app-download-android" href="">下载Android客户端</a>
+				<div id="app-download-qr">
+					<img src=""/>
+					<span>扫一扫二维码下载</span>
+				</div>
+			</div>
+			<div id="phone-pic"></div>
+		</div>
+	</div>
+	<div id="news">
+		<div class="c-wrapper clr">
+			<span class="sprit news-rem left">最新消息</span>
+			<ul class="news left">
+				<li class="news-list">
+					<a href="">·&nbsp;安卓发布新版本</a>
+					<span class="sprit real"></span>
+				</li>
+				<li class="news-list" style="display:none;">
+					<a href="" target="_blank">·&nbsp;11月1日~9日注册来往，必拿双十一红包</a>
+					<span class="sprit real"></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="fuc-show emotion">
+		<div class="c-wrapper">
+			<div class="pic left"><img src=""/></div>
+			<div class="right" style="margin-right:20px;">
+				<h3 class="desc-title">呆萌表情<br>欢乐沟通时刻</h3>
+				<p class="desc">完全免费的丰富贴图表情<br>或贱贱，或可爱，或呆萌囧二雷<br>八卦表白聊天居家必备！</p>
+				<div class="sprit fuc-icon"></div>
+			</div>
+		</div>
+	</div>
+	<div class="fuc-show read-burned" style="padding-top:0; padding-bottom:0;">
+		<div class="c-wrapper">
+			<div class="pic right"><img src=""/></div>
+			<div class="left">
+				<h3 class="desc-title">阅后即焚<br>超级隐私保护</h3>
+				<p class="desc">谁没有一点小秘密呢？有些话记在心里就好。<br>来往独家提供史上最强私密利器！<br>与好友语音私聊，分享私密图片使用阅后即焚<br>看过不留痕，心理零负担。</p>
+				<div class="sprit fuc-icon"></div>
+			</div>
+		</div>
+	</div>
+	<div class="fuc-show chat">
+		<div class="c-wrapper">
+			<div class="pic left"><img src=""/></div>
+			<div class="right">
+				<h3 class="desc-title">超大聊天群<br>突破界限 聊翻全场</h3>
+				<p class="desc">使用来往不仅可以与好友进行安全私密的聊天<br>更有超大聊天群上限可高达500人<br>再多的同学好友都不会漏下！</p>
+				<div class="sprit fuc-icon"></div>
+			</div>
+		</div>
+	</div>
+	<div class="fuc-show doodle">
+		<div class="c-wrapper">
+			<div class="pic right"><img src=""/></div>
+			<div class="left">
+				<h3 class="desc-title">涂鸦添趣味<br>聊天更好玩</h3>
+				<p class="desc">文字？out啦！语音？不新鲜！<br>涂鸦，更好玩！<br>来往内置多款笔刷，恶搞PS，温馨传情<br>你的创作让聊天变得更有趣！</p>
+				<div class="sprit fuc-icon"></div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p class="w1015">阿里巴巴集团旗下网站：阿里来往 © 2013 <a href="" target="_blank">浙B2-20070066</a></p>
+	</div>
+</div>

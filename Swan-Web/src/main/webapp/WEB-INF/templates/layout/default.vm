@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>关雎</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="刘飞" name="author">
+		<meta content="刘飞" name="publisher">
+		<meta content="刘飞" name="copyright">
+		<meta name="description" content="关雎 交友 聊天"/>
+		<meta name="keywords" content="关雎 app 手机 交友 聊天 娱乐 成人" />  		
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<link rel="shortcut icon" href="http://pics.taobao.com/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="$cssServer.setTarget("index.css")"/>
+		<script type="text/javascript" src="$jsServer.setTarget("index.js")">
+		</script>
+	</head>
+	<body>
+    	$screen_placeholder
+	</body>
+</html>
