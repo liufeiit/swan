@@ -27,7 +27,7 @@ public class Matrix {
 		System.out.println(service1.name("刘飞啊"));
 		InvocationHandler handler = Proxy.getInvocationHandler(service1);
 		Service service2 = (Service) Proxy.newProxyInstance(classLoader, DefaultService.class.getInterfaces(), handler);
-		System.out.println(service2.name("kk"));
+		System.out.println(service2.name("akka"));
 	}
 	
 	public static class DefaultService implements Service {
