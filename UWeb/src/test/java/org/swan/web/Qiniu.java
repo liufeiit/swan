@@ -48,7 +48,7 @@ public class Qiniu {
 		String prefix1 = "photo";
 		String prefix2 = "audio";
 		String str = "/" + prefix1 + "/";
-		long userId = 1332756;
+		long userId = 1156553;
 		
 		String a = "backend/questionrecord";
 		
@@ -60,7 +60,7 @@ public class Qiniu {
 				for (ListItem listItem : ret.results) {
 					String imageURL = "http://staticnova.ruoogle.com/" + listItem.key;
 					String name = imageURL.substring(imageURL.indexOf(str) + str.length());
-					String file = "/home/lf/charm/" + prefix1 + "/" + userId + "/" + name;
+					String file = "D://charm/photo" + prefix1 + "/" + userId + "/" + name;
 					save(imageURL, file);
 			        try {
 //						c.delete(bucketName3, listItem.key);
